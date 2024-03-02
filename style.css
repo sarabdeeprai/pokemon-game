@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin: 20px;
+}
+
+.container {
+    justify-content: center;
+    border: 2px solid black;
+    max-width: 400px;
+    max-height: 600px;
+    align-content: center;
+    border-radius: 20px;
+    margin: auto;
+    background-color: hsl(271, 58%, 48%);
+    box-shadow: 2px 2px 2px #000000;
+}
+
+.screen {
+    border: 3px solid black;
+    border-radius: 20px;
+    margin:10% auto 10% auto;
+    padding: auto;
+    max-width: 300px;
+    min-height: 200px;
+    background-color: rgb(192, 188, 188);
+    align-content: center;
+}
+
+.header, .buttons, .playerChoice, .computerChoice{
+    text-align: center;
+    justify-content: center;
+}
+
+.buttons img {
+    border: none;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    padding: 15px;
+    display: inline-block;
+    justify-content: center;
+    box-shadow: 2px 2px 2px #323131;
+    text-align: center;
+}
+
+#charmander {
+    background-color: hsl(354, 61%, 57%);
+    border: 3px solid hsl(354, 62%, 35%);
+}
+
+#squirtle {
+    background-color: hsl(214, 61%, 57%);
+    border: 3px solid hsl(215, 61%, 34%);
+}
+
+#bulbasaur {
+    background-color: hsl(134, 61%, 57%);
+    border: 3px solid hsl(112, 61%, 35%);
+}
+
+#charmander:hover, #squirtle:hover, #bulbasaur:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+/* .footer {
+    position: absolute; 
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.link {
+    text-decoration: none;
+    columns: inherit;
+    margin: 0 10px;
+} */
