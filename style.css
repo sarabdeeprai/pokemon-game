@@ -24,11 +24,11 @@ h1 {
     padding: auto;
     max-width: 300px;
     min-height: 200px;
-    background-color: rgb(192, 188, 188);
+    background-color: rgb(214, 212, 212);
     align-content: center;
 }
 
-.header, .buttons, .playerChoice, .computerChoice{
+.header, .buttons, .playerChoice, .computerChoice, .result{
     text-align: center;
     justify-content: center;
 }
@@ -61,8 +61,21 @@ h1 {
     border: 3px solid hsl(112, 61%, 35%);
 }
 
-#charmander:hover, #squirtle:hover, #bulbasaur:hover {
-    opacity: 70%;
+#charmander:hover {
+    background-color: hsl(354, 86%, 69%);
+    border: 3px solid hsl(354, 61%, 48%);
+    cursor: pointer;
+}
+
+#squirtle:hover {
+    background-color: hsl(214, 80%, 67%);
+    border: 3px solid hsl(215, 56%, 48%);
+    cursor: pointer;
+}
+
+#bulbasaur:hover {
+    background-color: hsl(134, 81%, 71%);
+    border: 3px solid hsl(112, 64%, 42%);
     cursor: pointer;
 }
 
